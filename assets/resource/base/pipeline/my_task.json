@@ -1,5 +1,18 @@
 {
-    "MyTask1": {},
-    "MyTask2": {},
-    "MyTask3": {}
+   "Recognize_A":{
+        "recognition": "TemplateMatch",
+        "template": "./a.png",
+        "action": "Click",
+        "rate_limit": 5000,
+        "timeout": 3600000,
+        "next": "Recognize_Close"
+   },
+   "Recognize_Close":{
+        "recognition": "TemplateMatch",
+        "template": "./close.png",
+        "action": "Click",
+        "rate_limit": 5000,
+        "timeout": 3600000,
+        "next": "Recognize_A"
+   }
 }

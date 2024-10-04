@@ -1,0 +1,18 @@
+{
+    "controller": {
+        "name": "安卓端",
+        "type": "Adb"
+    },
+    "adb": {
+        "adb_path": "C:/Program Files/BlueStacks_nxt/HD-Adb.exe",
+        "address": "127.0.0.1:5555",
+        "config": {}
+    },
+    "resource": "知到",
+    "task": [
+        {
+            "name": "入口任务",
+            "option": []
+        }
+    ]
+}
